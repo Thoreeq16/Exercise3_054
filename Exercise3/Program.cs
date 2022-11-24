@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace Exercise3
 {
-    internal class Program
+    class Node
     {
-        static void Main(string[] args)
-        {
-        }
+        /*creates Nodes for the circular nested list
+         * It consist of the information part and links to
+         * its succeeding and preceeding nodes
+         * in terms of next nodes.*/
+        public int rollNumber;
+        public string name;
+        public Node next;
     }
 }
